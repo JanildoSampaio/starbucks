@@ -61,28 +61,32 @@ span {
 }
 
 .logo {
-    padding-top: 10px;
     width: 80px;
 }
 
-.copo {
+.starbucks {
     width: 340px;
     z-index: 2;
 }
 
 .copo-pequeno {
     width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-35px);
 }
 
 .circulo {
-    background-color: #017143;
+    background: #017143;
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     clip-path: circle(600px at right 800px);
-
 }
 
 
